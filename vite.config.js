@@ -4,6 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
+   base: '/Alfred/',
   plugins: [
     
     react({
@@ -12,5 +13,4 @@ export default defineConfig({
       },
     }),  tailwindcss(),
   ],
-   base: '/Alfred/',
 })
